@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ComicLink - NASやクラウド上の漫画を快適に読める電子書籍ビューア">
+  <title>ComicLink - Manga Reader</title>
+  <style>
+    :root {
+      --bg: #101820;
+      --surface: #192630;
+      --text: #f3f7f8;
+      --muted: #aab8bf;
+      --accent: #39c6ce;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 80px 0 60px;
+    }
+    .logo {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+    .logo span { color: var(--accent); }
+    .tagline {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 48px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid #293943;
+      border-radius: 14px;
+      padding: 26px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin: 0 0 12px;
+    }
+    p { color: var(--muted); margin: 0; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #293943;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    @media (max-width: 480px) {
+      main { padding-top: 55px; }
+      .logo { font-size: 2rem; }
+      section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">Comic<span>Link</span></div>
+    <p class="tagline">
+      Your manga library, wherever you go.
+    </p>
+
+    <section>
+      <h2>ComicLinkについて</h2>
+      <p>
+        ComicLinkは、NASやネットワークストレージ、
+        クラウド上に保存した漫画や電子書籍を快適に楽しむための
+        Android向け電子書籍ビューアです。
+        リアルなページめくりと高速ストリーミングに対応しています。
+      </p>
+    </section>
+
+    <section>
+      <h2>アプリ</h2>
+      <p>
+        Androidアプリ「ComicLink」はGoogle Playで公開しています。
+      </p>
+      <p style="margin-top: 12px;">
+        <a href="https://play.google.com/store/apps/details?id=com.tyk.comiclink">
+          Google Playで見る →
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>プライバシーポリシー</h2>
+      <p>
+        本アプリにおける個人情報および利用情報の取り扱いについては、
+        以下をご確認ください。
+      </p>
+      <p style="margin-top: 12px;">
+        <a href="https://tsuyuki0326.github.io/comiclink-privacy-policy/">
+          プライバシーポリシー →
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <p>
+        ご質問・ご意見・不具合のご報告は、以下のメールアドレスまでお願いします。
+      </p>
+      <p style="margin-top: 12px;">
+        <a href="mailto:comiclink.support@gmail.com">
+          comiclink.support@gmail.com
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      © 2026 ComicLink
+    </footer>
+  </main>
+</body>
+</html>
